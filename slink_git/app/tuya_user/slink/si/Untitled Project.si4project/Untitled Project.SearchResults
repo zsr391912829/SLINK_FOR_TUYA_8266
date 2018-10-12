@@ -1,0 +1,5 @@
+---- GW_UPGD Matches (1 in 1 files) ----
+tuya_httpc.h (D:\zsr\esp8266\8266share\tysdk_for_esp8266_2.0.5\tysdk_output\tysdk_for_esp8266\app\tuya_common\include) line 100 :     GW_UPGD = 1,
+---- GW_UPGD Search Errors Encountered (1) ----
+The following 1 files could not be processed:
+D:\zsr\esp8266\8266share\tysdk_for_esp8266_2.0.5\tysdk_output\tysdk_for_esp8266\app\tuya_user\slink\include\user_config.h : File could not be opened.
