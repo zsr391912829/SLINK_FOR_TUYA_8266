@@ -71,8 +71,8 @@ LINKFLAGS_eagle.app.v6 = \
 	-lpsm \
 	-ltime \
 	-lhttpc \
-	-ltuya_sdk \
 	-lslink\
+	-ltuya_sdk \
 	$(DEP_LIBS_eagle.app.v6)					\
 	-Wl,--end-group
 
