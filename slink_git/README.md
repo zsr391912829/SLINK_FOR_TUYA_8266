@@ -46,3 +46,13 @@ ESP8266_RTOS_SDK/examples/project_template is a project template, you can copy t
 ## 编译脚本 ##
 详见 编译说明
 
+## 常见问题 ##
+1.在linux 平台下 执行编译脚本xxx.sh后 报错 
+因为windows对于sh文本保存后会自动加上 一些特殊换行符   
+所以如果报错 ，对相应的报错文件  执行 vim  xxx.sh    
+然后：set fileformat=unix
+接着: wq  
+
+
+
+
