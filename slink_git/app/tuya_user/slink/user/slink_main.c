@@ -88,11 +88,26 @@ void slink_main(int slink_arg,void *slink_cmd)
 {
     //1.Hello Slink
 	SLINK_LOG_SYS_LOG
-	SLINK_LOG("test inf");
 
     
     //2.Init SDK
     Init_Slink();
+
+	//3.获取启动yuanying
+	struct rst_info * reset_inf = system_get_rst_info();
+
+
+
+	switch(reset_inf->reason)
+	{
+        case REASON_DEFAULT_RST : 
+		SLINK_LOG("normal power reset!!");break;
+
+
+
+       default:break;
+	}
+	
 }
 
 
